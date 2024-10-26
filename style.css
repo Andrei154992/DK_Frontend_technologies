@@ -3,9 +3,134 @@ body {
     background-color: cornflowerblue;    
     color: white;
 }
+.body_2{
 
+    background-color: rgb(181, 237, 247);
+    color: black;
+}
 
-.head {
+.container{
+
+    background-color: aqua;
+    display: flex;     
+    flex-direction: column;  
+    align-items: center;
+}
+.block{
+
+    background-color: rgb(189, 250, 250);
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_2{
+    
+    height: 300px;
+    background-color: rgb(255, 0, 234);
+    display: flex;     
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;    
+    
+}
+.block_2{
+
+    background-color: rgb(189, 250, 250);    
+    height: 200px;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;    
+}
+
+.container_3{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.block_3{
+
+    border: solid;
+    border-color: rgb(250, 0, 33);
+    background-color:rgb(188, 228, 252);    
+    height: 200px;
+    width: 200px;    
+    
+}
+
+.container_4{
+
+    position: relative;
+    
+    margin-bottom: 275px;
+}
+.block_4{
+
+    border: solid;
+    border-color: rgb(250, 0, 33);
+    height: 200px;
+    width: 200px;   
+    position: absolute;
+    left: 120px;
+    right: 0;
+    top: 120px;
+    bottom: 0;
+    
+}
+.block_5{
+
+    border: solid;
+    border-color: rgb(17, 0, 250);
+    height: 200px;
+    width: 200px;   
+    
+}
+.block_6{
+
+    border: solid;
+    border-color: rgb(0, 250, 12);
+    height: 200px;
+    width: 200px;   
+    position: absolute;
+    left: 240px;
+    right: 0;
+    top: 240px;
+    bottom: 0;
+        
+}
+
+.image_cat{
+
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    border: solid;
+    border-color:blueviolet;
+    left: 1740px;
+    right: 0;
+    top: 850px;
+    bottom: 0;
+}
+
+.header {
+
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-right: 0px;
+    background-color:gold;  
+    margin-top: 20px;
+    margin-right: 20px;
+    flex-grow: 1; height: 50px;
+    flex-grow: 2; width: 1840px;
+    border-radius: 10px
+
+}
+
+.first {
 
     font-size: 40px; 
     background-color: blueviolet; 
@@ -15,6 +140,7 @@ body {
     padding: 20px;
     height: 35px;
     width: 750px;
+    border-radius: 10px
 
 }
 
@@ -22,6 +148,20 @@ body {
             
     width: 700px;
     height: 350px;
+    border-radius: 10px
+}
+.image_1 {
+            
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image_2{
+
+    width: 100px;
+    height: 100px;
 }
 
 .content {
