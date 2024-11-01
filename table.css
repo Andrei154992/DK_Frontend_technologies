@@ -1,0 +1,48 @@
+body {
+
+    background-color: cornflowerblue;    
+    color: white;
+    font-size: large;
+}
+
+.header_1 {
+
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background-color:gold;  
+    margin-top: 20px;
+    flex-grow: 1; height: 50px;
+    flex-grow: 2; width: 1840px;
+    border-radius: 10px
+
+}
+
+.table {
+
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 1770px;
+    height: 600px;
+    background-color: coral; 
+}
+.cap {
+
+    font-size: 30px; 
+    background-color: blueviolet; 
+    margin-top: 0px; 
+    text-align: center;
+    padding: 20px;
+    
+}
+.id {
+
+    width: 80px;
+
+}
+.gen {
+
+    width: 240px;
+}

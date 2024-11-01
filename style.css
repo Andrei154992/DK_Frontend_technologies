@@ -61,8 +61,7 @@ body {
 
 .container_4{
 
-    position: relative;
-    
+    position: relative;    
     margin-bottom: 275px;
 }
 .block_4{
@@ -120,10 +119,8 @@ body {
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    margin-right: 0px;
     background-color:gold;  
     margin-top: 20px;
-    margin-right: 20px;
     flex-grow: 1; height: 50px;
     flex-grow: 2; width: 1840px;
     border-radius: 10px
