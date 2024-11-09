@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Таблица</title>
-    <link rel="stylesheet" type="text/css" href="table.css"/>
+    <link rel="stylesheet" type="text/css" href="css\table.css"/>
 </head>
 <body>
     <div class='header_1'>
@@ -15,8 +15,11 @@
             Информация о студентах
         </caption>
         <colgroup>   
-            <col span="1" style="background-color:goldenrod"
+            <col span="1" style="background-color:goldenrod">            
         </colgroup>
+        <code>
+            <span:ntr-child(2n+1), hover style = "background-color: rgba(255, 166, 0, 0.945);"></span:ntr-child>
+        </code>
         <tr hover style = "background-color: rgb(0, 217, 255);">
             <th class = "id", rowspan = "2">id</th>            
             <th colspan = "3">ФИО</th>            
@@ -42,7 +45,7 @@
             <td>Очная</td>
             <td>ИВТ</td>
         </tr>
-        <tr hover style = "background-color: rgba(255, 166, 0, 0.945);">
+        <tr>
             <td>2</td>
             <td>Уваров</td>
             <td>Антон</td>
@@ -64,7 +67,7 @@
             <td>Очная</td>
             <td>ФИИТ</td>
         </tr>
-        <tr hover style = "background-color: rgba(255, 166, 0, 0.945);">
+        <tr>
             <td>4</td>
             <td>Мухранов</td>
             <td>Артём</td>
@@ -86,7 +89,7 @@
             <td>Очная</td>
             <td>ФИИТ</td>
         </tr>
-        <tr hover style = "background-color: rgba(255, 166, 0, 0.945);">
+        <tr>
             <td>6</td>
             <td>Корчагин</td>
             <td>Павел</td>
@@ -98,14 +101,60 @@
             <td>ФИИТ</td>
         </tr>
     </table>
+    <h1 class = "input">
+        Ввод информации
+    </h1>
+    <form class = "form">        
+        <div class = "container"> 
+            <div class = "block_1">
+                <label for = "ID">ID</label>    
+                <input type="number" id = "id" name = "id" value = "" min = "1" max = "100" step = "1">       
+            </div>  
+            <div class = "block_1">
+                <label for = "first_name">Имя</label>    
+                <input type="text" id = "first_name" name = "first_name" value = "">       
+            </div>            
+            <div class = "block_1">
+                <label for = "last_name">Фамилия</label>
+                <input type="text" id = "last_name" name = "last_name" value = "">           
+            </div>   
+            <div class = "block_1">
+                <label for = "patronymic">Отчество</label>
+                <input type="text" id = "patronymic" name = "patronymic" value = "">           
+            </div>  
+            <div class = "block_1">
+                <label for = "n_book">Номер зачётки</label>
+                <input type="text" id = "n_book" name = "n_book" value = "">           
+            </div> 
+            <div class = "block_1">
+                <label for = "gen">Группа</label>
+                <input type="text" id = "gen" name = "gen" value = "">           
+            </div> 
+            <div class = "block_1">
+                <label for = "f_eduk">Пол</label>
+                <select type="text" id = "f_eduk" name = "f_eduk" value = "">   
+                    <option value = "men">Мужской</option>   
+                    <option value = "women">Женский</option> 
+                </select>       
+            </div>             
+            <div class = "block_1">
+                <label for = "specialization">Направление</label>
+                <input type="text" id = "specialization" name = "specialization" value = "">           
+            </div>                        
+            <div class = "block_2">
+                <input type = "submit" class = "button" name = "button" value = "ДОБАВИТЬ">
+            </div>   
+        </div>     
+    </form>
     <style>
         table, th, td {
 
             border: 2px solid black;
             border-collapse: collapse;
             border-color:blueviolet;
-            text-align: center;
+            text-align: center;            
         }
+        
     </style>
 </body>
 </html>
